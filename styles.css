@@ -1,0 +1,36 @@
+body {
+  background-color: #44f518;
+  text-align: center;
+}
+h1 {
+  font-size: 5rem;
+}
+
+h1,
+h2,
+h3 {
+  color: #f501c0;
+  position: relative;
+  font-family: "Courgette";
+}
+
+.guitar-image {
+  position: relative;
+}
+
+h2,
+h3 {
+  bottom: 450px;
+  font-size: 2.5rem;
+  left: 350px;
+  line-height: 1.5;
+  width: 350px;
+  margin: 50px;
+  text-align: left;
+}
+
+.cropped-image {
+  border-radius: 50%;
+  width: 315px;
+  height: 315px;
+}
