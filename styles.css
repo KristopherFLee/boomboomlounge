@@ -1,6 +1,8 @@
 body {
   background-color: #44f518;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 h1 {
   font-size: 5rem;
@@ -12,32 +14,42 @@ h3 {
   color: #f501c0;
   position: relative;
   font-family: "Courgette";
+  text-align: center
 }
 
 .guitar-image {
-  position: relative;
+  
+
 }
 
 h2,
 h3 {
-  bottom: 450px;
+  bottom: 400px;
   font-size: 2.5rem;
-  left: 350px;
+  
   line-height: 1.5;
   width: 350px;
-  margin: 50px;
-  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:100%;
+  height:auto;
+  
 }
 
 .cropped-image {
+  border: 4px inset #f501c0;
   border-radius: 50%;
   width: 315px;
   height: 315px;
+  margin: 10px;
+}
+
+.infoimageandtext {
+  
 }
 #photocircle {
-    position: absolute;
-   
-    margin-top: -250px;
-    padding:5%
-    
+ 
+
+  margin-top: -250px;
+  padding: 5%;
 }
